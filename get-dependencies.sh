@@ -25,3 +25,21 @@ get-debloated-pkgs --add-common --prefer-nano
 # else
 # 	regular build steps
 # fi
+cho "Making nightly build of dethrace..."
+echo "---------------------------------------------------------------"
+REPO="https://github.com/dethrace-labs/dethrace"
+VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
+git clone --recursive --depth 1 "$REPO" ./dethrace
+echo "$VERSION" > ~/version
+
+mkdir -p ./AppDir/bin
+cd ./dethrace
+mkdir -p build && cd build
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DDETHRACE_PLATFORM_SDL2=OFF \
+    -DDETHRACE_PLATFORM_SDL3=ON
+make -j$(nproc)
+mv -v dethrace ../../AppDir/bin
+cp -rv ../dethrace/packaging/dethrace.desktop /usr/share/applications/dethrace.desktop
+cp -rv ../dethrace/packaging/icon_source.png /usr/share/pixmaps/icon_source.png
