@@ -44,4 +44,3 @@ cmake .. \
 make -j$(nproc)
 mv -v dethrace ../../AppDir/bin
 cp -rv ../packaging/dethrace.desktop /usr/share/applications/dethrace.desktop
-cp -rv ../packaging/icon_source.png /usr/share/pixmaps/icon_source.png
