@@ -1,7 +1,7 @@
 #!/bin/false
 dir=${XDG_DATA_HOME:-~/.local/share}/dethrace
 mkdir -p "$dir"
-if [ ! -f "dir"/dethrace.ini ]; then
+if [ ! -f "$dir/dethrace.ini" ]; then
 cd "$dir"
 cat <<EOM > "dethrace.ini"
 [General]
