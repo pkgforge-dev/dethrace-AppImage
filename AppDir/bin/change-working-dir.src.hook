@@ -52,6 +52,6 @@
 
 #[Network]
 #AdapterName = ""
-EOM
+#EOM
 #fi
 #cd "$dir"
