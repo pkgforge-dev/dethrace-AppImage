@@ -31,7 +31,7 @@ else
     echo "Making stable build of dethrace..."
     echo "---------------------------------------------------------------"
     VERSION=$(git ls-remote --tags --refs --sort='v:refname' "$REPO" | tail -n1 | cut -d/ -f3)
-    git clone --branch "$VERSION" --single-branch --recursive --depth 1 "$REPO" ./touchHLE
+    git clone --branch "$VERSION" --single-branch --recursive --depth 1 "$REPO" ./dethrace
 fi
 echo "$VERSION" > ~/version
 
