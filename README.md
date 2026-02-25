@@ -11,9 +11,9 @@
 </p>
 
 
-| Latest Nightly Release | Upstream URL |
-| :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest) | [Click here](https://github.com/dethrace-labs/dethrace) |
+| Latest Stable Release | Latest Nightly Relase | Upstream URL |
+| :---: | :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/tag/nightly) | [Click here](https://github.com/dethrace-labs/dethrace) |
 
 </div>
 
