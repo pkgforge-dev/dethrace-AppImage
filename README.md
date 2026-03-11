@@ -3,25 +3,26 @@
 # dethrace-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/dethrace-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/dethrace-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/dethrace-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/dethrace-AppImage)](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/Link4Electronics/dethrace-AppImage/blob/main/AppDir/dethrace.png" width="128" />
+  <img src="https://github.com/pkgforge-dev/dethrace-AppImage/blob/main/AppDir/dethrace.png" width="128" />
 </p>
 
+### ⚠️ Press F1 to show/hide ImGUI menu, use Emulate3DFX = 2 in `dethrace.ini` for SDL3 GPU/Vulkan
 
-| Latest Stable Release | Latest Nightly Relase | Upstream URL |
+| Latest Stable Release | Latest Nightly Release | Upstream URL |
 | :---: | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/tag/nightly) | [Click here](https://github.com/dethrace-labs/dethrace) |
+| [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/dethrace-AppImage/releases/tag/nightly) | [Click here](https://github.com/Link4Electronics/dethrace) |
 
 </div>
 
-### ⚠️ Copy `DATA` and optional `MUSIC` to `~/.local/share/dethrace/` and edit `dethrace.ini` if necessary ⚠️
+### ⚠️ Place `DATA` and optional `MUSIC` to `~/.local/share/dethrace/` and edit `dethrace.ini` if necessary ⚠️
 
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
