@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Copy `DATA` and optional `MUSIC` to `~/.local/share/dethrace/` and edit `dethrace.ini` if necessary ⚠️
+### ⚠️ Place `DATA` and optional `MUSIC` to `~/.local/share/dethrace/` and edit `dethrace.ini` if necessary ⚠️
 
 ---
 
