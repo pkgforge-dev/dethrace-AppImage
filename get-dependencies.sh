@@ -21,7 +21,7 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 echo "Building dethrace..."
 echo "---------------------------------------------------------------"
-REPO="https://github.com/dethrace-labs/dethrace"
+REPO="https://github.com/Link4Electronics/dethrace"
 if [ "${DEVEL_RELEASE-}" = 1 ]; then
     echo "Making nightly build of dethrace..."
     echo "---------------------------------------------------------------"
