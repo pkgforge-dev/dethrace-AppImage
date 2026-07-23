@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
     cmake          \
     libdecor       \
     sdl3           \
+    shaderc        \
     vulkan-headers
 
 echo "Installing debloated packages..."
