@@ -10,7 +10,7 @@
   <img src="https://github.com/Link4Electronics/dethrace-AppImage/blob/main/AppDir/dethrace.png" width="128" />
 </p>
 
-### ⚠️ Press F1 to show/hide ImGUI menu, use Emulate3DFX = 2 to use SDL3 GPU/Vulkan
+### ⚠️ Press F1 to show/hide ImGUI menu, use Emulate3DFX = 2 for SDL3 GPU/Vulkan
 
 | Latest Stable Release | Latest Nightly Release | Upstream URL |
 | :---: | :---: | :---: |
