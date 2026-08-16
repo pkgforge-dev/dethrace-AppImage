@@ -9,6 +9,8 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake          \
     libdecor       \
+    pipewire-audio \
+    pipewire-jack  \
     sdl3           \
     shaderc        \
     vulkan-headers
