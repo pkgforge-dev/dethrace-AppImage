@@ -17,7 +17,7 @@ FPSLimit = 60
 ; Full screen or window
 Windowed = 1
 
-; 3dfx mode (1 - OpenGL, 2- SDL3 GPU)
+; 3dfx mode (1 - OpenGL, 2 - SDL3 GPU)
 Emulate3DFX = 2
 
 ; Censored zombie/robots mode
