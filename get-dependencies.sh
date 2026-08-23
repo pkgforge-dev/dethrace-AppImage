@@ -8,14 +8,13 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake          \
-    libdecor       \
     sdl3           \
     shaderc        \
     vulkan-headers
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 
 echo "Building dethrace..."
 echo "---------------------------------------------------------------"
