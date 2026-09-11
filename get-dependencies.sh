@@ -35,10 +35,7 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./dethrace
 mkdir -p build && cd build
-cmake .. \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DDETHRACE_PLATFORM_SDL2=OFF \
-    -DDETHRACE_PLATFORM_SDL3=ON
-make -j$(nproc)
-mv -v dethrace ../../AppDir/bin
-cp -rv ../packaging/dethrace.desktop ../../AppDir
+cmake -S ./dethrace -B build -DCMAKE_BUILD_TYPE=Release -DDETHRACE_PLATFORM_SDL2=OFF -DDETHRACE_PLATFORM_SDL3=ON
+cmake --build build -j$(nproc)
+mv -v build/dethrace ./AppDir/bin
+cp -rv ./dethrace/packaging/dethrace.desktop ./AppDir
