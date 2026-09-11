@@ -6,11 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    cmake          \
-    sdl3           \
-    shaderc        \
-    vulkan-headers
+pacman -Syu --noconfirm cmake sdl3 shaderc vulkan-headers
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
