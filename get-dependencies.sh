@@ -29,8 +29,6 @@ REPO="https://github.com/Link4Electronics/dethrace"
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./dethrace
-mkdir -p build && cd build
 cmake -S ./dethrace -B build -DCMAKE_BUILD_TYPE=Release -DDETHRACE_PLATFORM_SDL2=OFF -DDETHRACE_PLATFORM_SDL3=ON
 cmake --build build -j$(nproc)
 mv -v build/dethrace ./AppDir/bin
